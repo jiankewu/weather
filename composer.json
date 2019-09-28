@@ -1,0 +1,28 @@
+{
+    "name": "wujianke\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wujianke",
+            "email": "691723840@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^8.3",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wujianke\\Weather\\": "src"
+        }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Wujianke\\Weather\\ServiceProvider"
+        ]
+    }
+}
+}
