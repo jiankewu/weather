@@ -1,4 +1,5 @@
 <?php
+
 namespace Wujianke\Weather\Tests;
 
 use GuzzleHttp\Client;
